@@ -11,7 +11,7 @@
 #endif
 
 // die ganze function gibt denke ich an, dass das Laden
-// auch erfolgreich war bei return 0 wird dann halt abgebrochen
+// auch erfolgreich war bei was anderem als return 0 wird dann halt abgebrochen
 int init_module(void) {
     printk(KERN_INFO "Hello, Kernel\n");
     return 0;
