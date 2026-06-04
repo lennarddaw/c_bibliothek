@@ -26,5 +26,8 @@ void cleanup_module(void) { // anscheined muss ich hier typ void explizit überg
     printk(KERN_INFO "Bye, Kernel");
 }
 
+// Bisher habe ich keine Plan ob das so läuft (denke schon, weil viel ists ja nichts)
+// bin hier auf windows und wenn ich per MinGW compile wird das zu ner windows .exe
+// aber der kernel ist eine .ko versuche es daher gerade in ubuntu bzw. mit der Linux VM
 
 
